@@ -1,0 +1,20 @@
+# Environment variables
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.next/
+out/
+
+# Personal and internal documents
+*.pdf
+final.tex
+implementation_plan.md
+work_status_report.md
+
+# TypeScript build cache
+*.tsbuildinfo
