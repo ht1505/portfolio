@@ -57,7 +57,7 @@ export const Navbar: React.FC = () => {
         {/* Right CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="/resume.pdf"
+            href="/resume/Hitesh_Thacker_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition-colors"
@@ -65,12 +65,6 @@ export const Navbar: React.FC = () => {
             <span>Resume</span>
             <ExternalLink size={13} />
           </a>
-          <Link
-            href="/admin"
-            className="text-xs text-slate-400 hover:text-slate-200 transition-colors px-2 py-1"
-          >
-            Admin
-          </Link>
         </div>
 
         {/* Mobile menu toggle */}
@@ -102,23 +96,17 @@ export const Navbar: React.FC = () => {
           ))}
           <div className="pt-3 flex flex-col gap-2 border-t border-slate-800">
             <a
-              href="/resume.pdf"
+              href="/resume/Hitesh_Thacker_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 py-2 px-3 rounded-lg text-sm bg-slate-800 text-slate-200 border border-slate-700 font-medium"
             >
               Resume <ExternalLink size={14} />
             </a>
-            <Link
-              href="/admin"
-              onClick={() => setIsOpen(false)}
-              className="text-center py-2 text-xs text-slate-400 hover:text-slate-200"
-            >
-              Admin Portal
-            </Link>
           </div>
         </div>
       )}
     </header>
   );
 };
+

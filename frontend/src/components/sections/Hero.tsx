@@ -47,7 +47,7 @@ export const Hero: React.FC = () => {
             </Button>
           </Link>
           <a
-            href="/resume.pdf"
+            href="/resume/Hitesh_Thacker_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -89,3 +89,4 @@ export const Hero: React.FC = () => {
     </section>
   );
 };
+
